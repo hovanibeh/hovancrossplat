@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+      xmlns:pages="clr-namespace:hovan_ibehcrossplat.Pages"
+      x:Class="hovan_ibehcrossplat.AppShell">
+    <ShellContent Route="home" ContentTemplate="{DataTemplate pages:MainPage}" />
+    <ShellContent Route="game" ContentTemplate="{DataTemplate pages:GamePage}" />
+    <ShellContent Route="settings" ContentTemplate="{DataTemplate pages:SettingsPage}" />
+    <ShellContent Route="history" ContentTemplate="{DataTemplate pages:HistoryPage}" />
+</Shell>
